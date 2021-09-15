@@ -4,18 +4,14 @@ namespace Calc
 {
     class Program
     {
-
         static float firstNum;
         static float secondNum;
         static string operor;
         
-        
         static void Main(string[] args)
         {
-            ResetCalc();
             DoCalc();
         }
-
 
         private static void DoCalc()
         {
